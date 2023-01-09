@@ -44,11 +44,35 @@ body {
   flex: 100% 1 1;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  color: #162E3C;
+  font-weight: 400;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
 h1 {
   font-size: 35px;
-  font-family: 'Roboto Slab', serif;
-
 }
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 16px;
+}
+
 
 .container {
   max-width: 1140px;
