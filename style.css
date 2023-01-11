@@ -54,6 +54,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.line-heigh {
+  line-height: 25px;
+  margin: 0;
+}
+
 h1 {
   font-size: 35px;
 }
@@ -118,6 +123,10 @@ font-weight: 400;
 line-height: 20px;
 letter-spacing: 0px;
 text-align: left;
+}
+
+.p-12 {
+  font-size: 12px;
 }
 
 .header {
@@ -246,3 +255,66 @@ text-decoration: none;
 .recipe h6 {
   padding-bottom: 5px;
 }
+
+.person-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.person-info img {
+  width: 16px;
+  height: 16px;
+}
+
+
+
+.car {
+height: 299px;
+width: 292px;
+
+
+}
+
+.gray {
+  color:#E7D9FF;
+}
+
+.cart-info 
+{
+  display: flex;
+  margin-right: 29px;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.tatoo-cart {
+  display: flex;
+  background-image: url(/images/image-208.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 370px;
+  width: 263px;
+  border-radius: 10px;
+  flex-direction: column;
+  
+}
+
+.tatoo-person {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  height: 45px;
+  width: 45px;
+
+}
+
+
+
